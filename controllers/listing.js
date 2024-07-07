@@ -1,5 +1,4 @@
 require('dotenv').config();
-const { modelNames } = require('mongoose');
 const Listing=require("../models/listing")
 const ExpressError =require("../utils/ExpressError.js");
 const mbxGeocoding = require('@mapbox/mapbox-sdk/services/geocoding');
