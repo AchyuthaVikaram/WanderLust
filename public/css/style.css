@@ -8,6 +8,12 @@ body{
     flex:1 !important;
 }
 /* navbar */
+.navbar-collapse {
+    background-color: white !important;
+}
+.dropdown-menu {
+    background-color: white !important;
+}
 .navbar{
     height: 5rem;
     background-color: white;
