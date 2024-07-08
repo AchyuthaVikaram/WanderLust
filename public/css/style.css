@@ -156,6 +156,9 @@ body{
     height: 400px;
     width:100%;
 }
+.None{
+    display:none;
+}
 
 @media (max-width: 1093px) {
     .filters{
