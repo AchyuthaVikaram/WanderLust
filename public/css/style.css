@@ -156,3 +156,14 @@ body{
     height: 400px;
     width:100%;
 }
+
+@media (max-width: 1093px) {
+    .filters{
+        display:none;
+    }
+}
+@media (max-width: 761px) {
+    .None{
+        display:none;
+    }
+}
