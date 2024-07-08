@@ -156,17 +156,21 @@ body{
     height: 400px;
     width:100%;
 }
-.None{
-    display:none;
-}
 
+#myToggle{
+    color:aquamarine !important;
+}
+.dropdown-item i{
+    opacity:0.7;
+    margin-right: 0.5rem;;
+}
 @media (max-width: 1093px) {
     .filters{
         display:none;
     }
 }
-@media (max-width: 761px) {
-    .None{
-        display:none;
-    }
+@media (min-width: 1093px) {
+   .dropdown{
+    display: none !important;
+   }
 }
